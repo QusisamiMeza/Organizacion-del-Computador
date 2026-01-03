@@ -1,5 +1,4 @@
 # Organización del Computador
----
 
 Repositorio correspondiente a los laboratorios prácticos de la materia Organización del Computador.
 
@@ -20,12 +19,24 @@ Los integrantes fueron:
 
 ---
 
-## Laboratorios desarrollados
+## Laboratorios desarrollados y conceptos trabajados
 
 ### - Combinacionales
+Diseño y análisis de circuitos combinacionales, aplicando lógica booleana y operaciones aritméticas a nivel de hardware.
+Se implementaron circuitos como inversores y combinadores de bits, utilizando multiplexores y complemento a dos.
 
-    Conceptos trabajados:
-        - Lógica booleana
-        - Diseño modular de circuitos
-        - Complemento a dos
-        - Operaciones aritméticas a nivel de hardware
+### - DataLab | Representación de Datos
+Resolución de problemas de manipulación de datos a nivel de bits bajo fuertes restricciones del lenguaje C.
+Se profundizó en la representación binaria de enteros y punto flotante (IEEE 754), optimizando soluciones sin estructuras de control ni operadores de alto nivel.
+
+### - MicroLab | Taller de Microarquitectura
+Análisis y extensión de una microarquitectura microprogramada, utilizando un procesador didáctico simulado.
+Se programó en lenguaje ensamblador, se estudió el datapath y la unidad de control, y se agregaron nuevas instrucciones mediante microcódigo.
+
+### - ASM Lab | Estructuras de Datos y Bajo Nivel
+Implementación de estructuras de datos genéricas en C, haciendo uso intensivo de punteros y manejo manual de memoria.
+Se trabajó con listas doblemente enlazadas y arreglos dinámicos, utilizando punteros a funciones para abstraer operaciones según el tipo de dato.
+
+### - CacheLab | Simulador de Caché
+Desarrollo de un simulador de caché parametrizable, enfocado en el análisis del rendimiento de memoria.
+Se implementaron políticas de asociatividad y reemplazo LRU, recolectando métricas como hits, misses y tiempos de acceso a partir de trazas reales.
